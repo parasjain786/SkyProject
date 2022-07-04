@@ -5,7 +5,7 @@
 # Install all the dependencies using below command:
 --> npm install
 
-# Incase of error (if you recently installed playwright or updated run below cmd**)
+# Incase of error  msg =>("if you recently installed playwright or updated" run below cmd**)
 --> npm playwright install
 
 # Now run the feature files using below command:
