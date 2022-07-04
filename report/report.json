@@ -1,0 +1,261 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "navigation-and-usage-of-sky-home-and-deal-page;verify-user-is-navigated-and-displayed-with-list-of-deals-on-the-deals-page",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "verify user is navigated and displayed with list of deals on the deals page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "StepDef\\home.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on \"Deals\"",
+            "match": {
+              "location": "StepDef\\home.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should navigate to \"https://www.sky.com/deals\"",
+            "match": {
+              "location": "StepDef\\deals.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should be displayed with list of deals and prices \"28_31_35\"",
+            "match": {
+              "location": "StepDef\\deals.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5055000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "navigation-and-usage-of-sky-home-and-deal-page;to-verify-user-is-taken-to-'create-your-my-sky-password'-screen-tries-to-login-with-invalid-credentails",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "To verify user is taken to 'Create your My Sky password' screen tries to login with invalid credentails",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "StepDef\\home.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User clicks on Sign in",
+            "match": {
+              "location": "StepDef\\home.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User enters invalid credentials \"parasjain@gmail.com\"",
+            "match": {
+              "location": "StepDef\\signin.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User clicks on Continue button",
+            "match": {
+              "location": "StepDef\\signin.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User should displayed a box with text 'Create your My Sky password'",
+            "match": {
+              "location": "StepDef\\signin.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 312000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "navigation-and-usage-of-sky-home-and-deal-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Navigation and Usage of Sky Home and Deal page",
+    "tags": [],
+    "uri": "Feature\\skyDeals.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sky-search-bar-and-editorial-screen;",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "StepDef\\home.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6020000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User search \"sky\" in the search bar",
+            "match": {
+              "location": "StepDef\\home.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 851000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should be displayed with the editorial section",
+            "match": {
+              "location": "StepDef\\home.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3144000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sky-search-bar-and-editorial-screen",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sky search Bar and Editorial screen",
+    "tags": [],
+    "uri": "Feature\\skySearch.feature"
+  }
+]
